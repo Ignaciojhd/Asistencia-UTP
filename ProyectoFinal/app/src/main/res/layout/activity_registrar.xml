@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegistrarActivity">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="REGISTRO"
+        android:textAlignment="center"
+        android:textSize="32dp"
+        android:background="#370183"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:id="@+id/lblTitle"/>
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/utp"
+        android:layout_below="@+id/lblTitle"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:id="@+id/imgUtpLogo"
+        android:layout_marginBottom="30dp"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nombre: "
+        android:textSize="20dp"
+        android:layout_below="@id/imgUtpLogo"
+        android:layout_marginLeft="20dp"
+        android:id="@+id/lblNombre"
+        android:textStyle="bold"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:id="@+id/txtNombre"
+        android:layout_below="@id/lblNombre"
+        android:hint="Nombre"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginBottom="20dp"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Apellido: "
+        android:textSize="20dp"
+        android:layout_below="@id/txtNombre"
+        android:layout_marginLeft="20dp"
+        android:id="@+id/lblApellido"
+        android:textStyle="bold"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:id="@+id/txtApellido"
+        android:layout_below="@id/lblApellido"
+        android:hint="Apellido"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginBottom="20dp"/>
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cedula: "
+        android:textSize="20dp"
+        android:layout_below="@id/txtApellido"
+        android:layout_marginLeft="20dp"
+        android:id="@+id/lblCedula"
+        android:textStyle="bold"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:id="@+id/txtCedula"
+        android:layout_below="@id/lblCedula"
+        android:hint="Cedula"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginBottom="20dp"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Correo: "
+        android:textSize="20dp"
+        android:layout_below="@id/txtCedula"
+        android:layout_marginLeft="20dp"
+        android:id="@+id/lblCorreo"
+        android:textStyle="bold"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:id="@+id/txtCorreo"
+        android:layout_below="@id/lblCorreo"
+        android:hint="Correo electronico"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginBottom="20dp"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Contraseña: "
+        android:textSize="20dp"
+        android:layout_below="@id/txtCorreo"
+        android:layout_marginLeft="20dp"
+        android:id="@+id/lblPass"
+        android:textStyle="bold"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:id="@+id/txtPass"
+        android:layout_below="@id/lblPass"
+        android:hint="Contraseña"
+        android:inputType="textPassword"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="30dp"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:id="@+id/btnRegistrar"
+        android:text="Registrarse"
+        android:layout_below="@+id/txtPass"
+        android:textSize="24dp"
+        android:layout_marginLeft="20dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/buttonstyle"/>
+
+
+</RelativeLayout>

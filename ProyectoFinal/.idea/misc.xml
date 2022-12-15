@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/joe_c/AndroidStudioProjects/ProyectoFinal/app/src/main/res/drawable/buttonstyle.xml" value="0.2145" />
+        <entry key="..\:/Users/joe_c/AndroidStudioProjects/ProyectoFinal/app/src/main/res/drawable/spinner_bg.xml" value="0.2145" />
+        <entry key="..\:/Users/joe_c/AndroidStudioProjects/ProyectoFinal/app/src/main/res/drawable/spinner_sla.xml" value="0.2145" />
+        <entry key="..\:/Users/joe_c/AndroidStudioProjects/ProyectoFinal/app/src/main/res/layout/activity_admin_home.xml" value="0.25052083333333336" />
+        <entry key="..\:/Users/joe_c/AndroidStudioProjects/ProyectoFinal/app/src/main/res/layout/activity_escribir_tag.xml" value="0.38697916666666665" />
+        <entry key="..\:/Users/joe_c/AndroidStudioProjects/ProyectoFinal/app/src/main/res/layout/activity_estudiante_home.xml" value="0.25" />
+        <entry key="..\:/Users/joe_c/AndroidStudioProjects/ProyectoFinal/app/src/main/res/layout/activity_historial_estudiante.xml" value="0.33" />
+        <entry key="..\:/Users/joe_c/AndroidStudioProjects/ProyectoFinal/app/src/main/res/layout/activity_historial_profesor.xml" value="0.38697916666666665" />
+        <entry key="..\:/Users/joe_c/AndroidStudioProjects/ProyectoFinal/app/src/main/res/layout/activity_login.xml" value="0.33" />
+        <entry key="..\:/Users/joe_c/AndroidStudioProjects/ProyectoFinal/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Users/joe_c/AndroidStudioProjects/ProyectoFinal/app/src/main/res/layout/activity_pasar_asistencia.xml" value="0.33" />
+        <entry key="..\:/Users/joe_c/AndroidStudioProjects/ProyectoFinal/app/src/main/res/layout/activity_perfil.xml" value="0.25" />
+        <entry key="..\:/Users/joe_c/AndroidStudioProjects/ProyectoFinal/app/src/main/res/layout/activity_perfil_admin.xml" value="0.2377084224027362" />
+        <entry key="..\:/Users/joe_c/AndroidStudioProjects/ProyectoFinal/app/src/main/res/layout/activity_perfil_materias.xml" value="0.2377084224027362" />
+        <entry key="..\:/Users/joe_c/AndroidStudioProjects/ProyectoFinal/app/src/main/res/layout/activity_profesor_home.xml" value="0.25052083333333336" />
+        <entry key="..\:/Users/joe_c/AndroidStudioProjects/ProyectoFinal/app/src/main/res/layout/activity_registrar.xml" value="0.25" />
+        <entry key="..\:/Users/joe_c/AndroidStudioProjects/ProyectoFinal/app/src/main/res/layout/list_view_asistencia_template.xml" value="0.33" />
+        <entry key="..\:/Users/joe_c/AndroidStudioProjects/ProyectoFinal/app/src/main/res/layout/list_view_historial_template.xml" value="0.38697916666666665" />
+        <entry key="..\:/Users/joe_c/AndroidStudioProjects/ProyectoFinal/app/src/main/res/layout/list_view_materias_template.xml" value="0.33" />
+        <entry key="..\:/Users/joe_c/AndroidStudioProjects/ProyectoFinal/app/src/main/res/layout/spinner_dropdown_item.xml" value="0.2377084224027362" />
+        <entry key="..\:/Users/joe_c/AndroidStudioProjects/ProyectoFinal/app/src/main/res/layout/spinner_item_selected.xml" value="0.2377084224027362" />
+        <entry key="..\:/Users/joe_c/AppData/Local/Android/Sdk/platforms/android-32/data/res/layout/simple_spinner_dropdown_item.xml" value="0.25052083333333336" />
+        <entry key="..\:/Users/joe_c/AppData/Local/Android/Sdk/platforms/android-32/data/res/layout/simple_spinner_item.xml" value="0.2377084224027362" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

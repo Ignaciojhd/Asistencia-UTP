@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".PasarAsistencia">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Pasar Asistencia"
+        android:textAlignment="center"
+        android:textSize="32dp"
+        android:background="#370183"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:id="@+id/lblPasar"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/lblSelecciona"
+        android:text="Seleccione una asignatura: "
+        android:layout_below="@+id/lblPasar"
+        android:textSize="24dp"
+        android:textStyle="bold"
+        android:textColor="@color/black"/>
+
+    <Spinner
+        android:layout_width="match_parent"
+        style="@style/Widget.AppCompat.Spinner"
+        android:background="@drawable/spinner_bg"
+        android:layout_height="?attr/dropdownListPreferredItemHeight"
+        android:stateListAnimator="@drawable/spinner_sla"
+        android:layout_below="@+id/lblSelecciona"
+        android:id="@+id/spnGrupos"
+        android:autofillHints="Grupo"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+
+        />
+
+     <Button
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:text="Guardar"
+         android:id="@+id/btnGuardar"
+         android:layout_below="@id/spnGrupos"
+         android:textStyle="bold"
+         android:textSize="24dp"
+         android:layout_marginLeft="5dp"
+         android:onClick="PostAsistencia"
+         android:background="@drawable/buttonstyle"/>
+
+      <Switch
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="Corregir Estados"
+          android:id="@+id/swtCorregir"
+          android:layout_below="@id/spnGrupos"
+          android:layout_alignParentRight="true"
+          android:textStyle="bold"
+          android:textSize="16dp"
+          />
+
+
+
+    </RelativeLayout>
+
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/lstEstudiantes"
+        android:layout_marginTop="10dp"
+        />
+
+
+
+</LinearLayout>

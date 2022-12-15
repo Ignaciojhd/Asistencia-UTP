@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EscribirTag">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Escribir Tag"
+        android:textAlignment="center"
+        android:textSize="32dp"
+        android:background="#370183"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:id="@+id/lblEscribir"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lblEscribir"
+        android:textSize="35dp"
+        android:layout_marginTop="30dp"
+        android:text="Inserte la cedula para el carnet:"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:id="@+id/lblCedula"/>
+
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="35dp"
+        android:layout_marginTop="100dp"
+        android:inputType="number"
+        android:digits="0123456789-"
+        android:hint="00-0000-000000"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/txtCedula"
+        android:textAlignment="center"
+        />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtCedula"
+        android:textSize="35dp"
+        android:layout_marginTop="30dp"
+        android:text="Acercar Tag NFC"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:textColor="#cc9da2"
+        android:id="@+id/lblNFC"
+        android:visibility="invisible"/>
+
+    <Button
+        android:layout_marginTop="50dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:text="Activar Escritura"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="30dp"
+        android:textStyle="bold"
+        android:id="@+id/btnActivar"
+        android:onClick="ActivarEscritura"/>
+
+
+
+
+
+
+
+
+</RelativeLayout>

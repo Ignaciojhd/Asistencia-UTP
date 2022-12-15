@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="84dp"
+        android:layout_height="84dp"
+        android:layout_alignParentLeft="true"
+        android:id="@+id/imgEstudiante"
+        android:src="@drawable/estudiante"
+        android:layout_marginRight="5dp"
+        android:layout_marginLeft="5dp"
+        />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/imgEstudiante"
+        android:textSize="18dp"
+        android:text="Ignacio Hernández"
+        android:id="@+id/lblNombre"
+        android:textColor="@color/black"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/imgEstudiante"
+        android:textSize="15dp"
+        android:text="08-0957-000849"
+        android:id="@+id/lblCedula"
+        android:layout_below="@id/lblNombre"
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/imgEstudiante"
+        android:textSize="15dp"
+        android:text="2022-12-10"
+        android:id="@+id/lblFecha"
+        android:layout_below="@id/lblCedula"/>
+
+    <TextView
+        android:layout_width="75dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:textStyle="bold"
+        android:text="A"
+        android:textColor="@color/black"
+        android:textSize="84dp"
+        android:textAlignment="textStart"
+        android:includeFontPadding="false"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:background="#FF1D18"
+        android:id="@+id/lblEstado"/>
+
+</RelativeLayout>
